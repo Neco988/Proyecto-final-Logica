@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Proyecto Final</h1>
+    <div class="button-container">
+        <button class="button" onclick="window.open('CURRICULUM.html', '_blank')">Calculadora</button>
+        <button class="button" onclick="window.open('index.HTML', '_blank')">PacMan</button>
+    
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+/* Estilo por defecto */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#titulo {
+    color: black;
+}
+
+#parrafo {
+    color: grey;
+}
+
+/* Estilo 1 */
+.estilo1 body {
+    background-color: lightblue;
+}
+
+.estilo1 #titulo {
+    color: blue;
+    font-size: 2em;
+}
+
+.estilo1 #parrafo {
+    color: blue;
+    font-style: italic;
+}
+
+/* Estilo 2 */
+.estilo2 body {
+    background-color: lightgreen;
+}
+
+.estilo2 #titulo {
+    color: green;
+    text-transform: uppercase;
+}
+
+.estilo2 #parrafo {
+    color: green;
+    text-decoration: underline;
+}
+
+/* Estilo 3 */
+.estilo3 body {
+    background-color: lightcoral;
+}
+
+.estilo3 #titulo {
+    color: red;
+    font-weight: bold;
+}
+
+.estilo3 #parrafo {
+    color: red;
+    font-size: 1.2em;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
